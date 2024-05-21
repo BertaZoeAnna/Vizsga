@@ -28,7 +28,9 @@ function App() {
   }, []);
   return (
     <div className="App" style={{ border: "1xp solid gray" }}>
-      <Temak/>
+    <h1>Szótár</h1>
+    <h2>Szavak</h2>
+    <Temak/>
 
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr" }}>
         <div>
